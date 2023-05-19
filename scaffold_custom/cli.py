@@ -3,7 +3,7 @@ import shutil
 import sys
 from tqdm import tqdm
 
-from description import MANIFEST_FILE_BRAINTECH, MANIFEST_FILE_MULTISERVICIOS
+from scaffold_custom.description import MANIFEST_FILE_BRAINTECH, MANIFEST_FILE_MULTISERVICIOS
 
 def create_project(client:int,tecnical_name:str):
     os.mkdir(tecnical_name)
