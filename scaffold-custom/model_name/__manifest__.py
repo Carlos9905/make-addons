@@ -1,0 +1,15 @@
+{
+    'name': 'Model Name',
+    'version': '14.0.0.0.0',
+    'summary': ' Model Name',
+    'description': 'Model Name.',
+    'author': 'José Carlos Aguilar',
+    'company': 'Multiservicios R&L SRL',
+    'maintainer': 'Multiservicios R&L SRL',
+    'website': 'https://www.multiserviciosrl.co.cr',
+    'license': 'LGPL-3',
+    'depends': ['base'],
+    'data': ['security/ir.model.access.csv'],
+    'installable': True,
+    'application': True,
+}
