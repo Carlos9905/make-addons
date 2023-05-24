@@ -7,7 +7,7 @@ from scaffold_custom.description import MANIFEST_FILE_BRAINTECH, MANIFEST_FILE_M
 
 def create_project(client:int,tecnical_name:str):
     os.mkdir(tecnical_name)
-    folders = ['models', 'views', 'security', 'reports', 'static', 'wizard', 'controllers']
+    folders = ['data','models', 'views', 'security', 'reports', 'static', 'wizard', 'controllers']
     for folder in tqdm(folders, desc='Creating files'):
         #Crear los archivos de inicio para el módulo nuevo
         open(os.path.join(tecnical_name, "__init__.py"), 'a').close()
